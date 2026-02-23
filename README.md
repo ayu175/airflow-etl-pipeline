@@ -1,6 +1,6 @@
 # Airflow ETL Pipeline
 
-An automated data pipeline built with Apache Airflow that stages raw event and song data from AWS S3, loads it into a Redshift data warehouse, and runs automated data quality checks — all orchestrated through a custom DAG with four purpose-built operators.
+An automated data pipeline built with Apache Airflow that stages raw event and song data from AWS S3, loads it into a Redshift data warehouse, and runs automated data quality checks, all orchestrated through a custom DAG with four operators.
 
 > This project was completed as part of the [Udacity Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027). Udacity provided the project scaffold, SQL helper class, docker configuration, and partially implemented operator files and students were responsible for completing the operator logic and configuring DAG task dependencies.
 
